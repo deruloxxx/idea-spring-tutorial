@@ -22,7 +22,7 @@ public class Customer {
     this.id = id;
   }
 
-  public String getFirstName(String firstName) {
+  public String getFirstName() {
     return firstName;
   }
 
@@ -30,11 +30,11 @@ public class Customer {
     this.firstName = firstName;
   }
 
-  public String getLastName(String lastName) {
+  public String getLastName() {
     return lastName;
   }
 
   public void setLastName(String lastName) {
-    this.firstName = lastName;
+    this.lastName = lastName;
   }
 }
